@@ -1,4 +1,0 @@
-
-# obsidian
-
-sometomes shit happens
