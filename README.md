@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# obsidian
 
-jnjjn\2
+# obsidian
 =======
-asdhnkjmlksad_
-sdasda
->>>>>>> origin/main
+sometomes shit happens
