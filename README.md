@@ -1,4 +1,4 @@
 
 # obsidian
-=======
+
 sometomes shit happens
