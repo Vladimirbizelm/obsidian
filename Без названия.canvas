@@ -1,4 +1,29 @@
 {
-	"nodes":[],
-	"edges":[]
+	"nodes":[
+		{
+			"id":"5725655b3abd779d",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":-1220,
+			"y":-840,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"899d5f1dc5067365",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":-1280,
+			"y":-580,
+			"width":260,
+			"height":60
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
 }
