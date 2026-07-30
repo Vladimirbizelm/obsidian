@@ -1,4 +1,10 @@
 {
-	"nodes":[],
-	"edges":[]
+	"nodes":[
+		{"id":"a1caacbd88b9087e","x":-296,"y":54,"width":250,"height":60,"type":"text","text":""},
+		{"id":"61e342ab1b09dcd7","x":-149,"y":54,"width":250,"height":60,"type":"text","text":"Ыва"},
+		{"id":"b50c95acaeb60043","x":-180,"y":-60,"width":250,"height":50,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"2dea51f46055c6ad","fromNode":"b50c95acaeb60043","fromSide":"bottom","toNode":"61e342ab1b09dcd7","toSide":"top"}
+	]
 }
