@@ -313,7 +313,8 @@ Airbus H130
 2. **longitudinal axis** (продольная ось - отклонение по тангажу вперед/назад);
 3. **directional axis** (направляющая ось - отклонение по рысканию влево/вправо);
 4. **grip axis** (ось захвата - thumbwheel (описание ниже) - управление ОШ).
-![[../pasted information/Pasted image 20260919220129.png|551]]
+![581](../pasted%20information/Pasted%20image%2020260920021923.png)
+
 
 
 Четвёртая ось реализуется отдельным органом управления (input device 340)
