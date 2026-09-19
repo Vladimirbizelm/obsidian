@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{
+			"id":"02a7324d4067a3d4",
+			"type":"text",
+			"text":"Пилот",
+			"styleAttributes":{},
+			"x":-120,
+			"y":520,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"c76475cc643446ec",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":-120,
+			"y":520,
+			"width":260,
+			"height":60
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
