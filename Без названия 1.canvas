@@ -1,5 +1,16 @@
 {
-	"nodes":[],
+	"nodes":[
+		{
+			"id":"d683f2c9cab82728",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":-280,
+			"y":80,
+			"width":260,
+			"height":60
+		}
+	],
 	"edges":[],
 	"metadata":{
 		"version":"1.0-1.0",
