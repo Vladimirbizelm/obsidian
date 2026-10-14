@@ -85,10 +85,20 @@
 		{
 			"id":"14453efb6f10c546",
 			"type":"text",
-			"text":"Уточнение эргономических",
+			"text":"Уточнение эргономических параметров",
 			"styleAttributes":{},
-			"x":-20,
-			"y":20,
+			"x":-180,
+			"y":300,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"3d0b4f1364028f1a",
+			"type":"text",
+			"text":"Выделение эргономических параметров для каждого ",
+			"styleAttributes":{},
+			"x":110,
+			"y":300,
 			"width":260,
 			"height":60
 		}
@@ -157,6 +167,15 @@
 			"fromNode":"d683f2c9cab82728",
 			"fromSide":"bottom",
 			"toNode":"a1c979abd33e8cf2",
+			"toSide":"top"
+		},
+		{
+			"id":"b0db2f0f9f408f66",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"6a4cfa08da9b7e61",
+			"fromSide":"bottom",
+			"toNode":"14453efb6f10c546",
 			"toSide":"top"
 		}
 	],
