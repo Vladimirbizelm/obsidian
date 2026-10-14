@@ -1,42 +1,12 @@
 {
 	"nodes":[
 		{
-			"id":"d683f2c9cab82728",
-			"type":"text",
-			"text":"Определение набора датчиков",
-			"styleAttributes":{},
-			"x":40,
-			"y":-20,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"6a4cfa08da9b7e61",
-			"type":"text",
-			"text":"Силовой расчет узлов",
-			"styleAttributes":{},
-			"x":-390,
-			"y":10,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"155655239bf4bf9e",
 			"type":"text",
 			"text":"Определение кинематической схемы",
 			"styleAttributes":{},
 			"x":-240,
 			"y":-280,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"95373ba5f03733e0",
-			"type":"text",
-			"text":"Кинематический анализ",
-			"styleAttributes":{},
-			"x":-240,
-			"y":-180,
 			"width":260,
 			"height":60
 		},
@@ -51,9 +21,78 @@
 			"y":100,
 			"width":260,
 			"height":60
+		},
+		{
+			"id":"a1c979abd33e8cf2",
+			"type":"text",
+			"text":"Первичный выбор геометрических характеристик",
+			"styleAttributes":{},
+			"x":40,
+			"y":160,
+			"width":260,
+			"height":80
+		},
+		{
+			"id":"6a4cfa08da9b7e61",
+			"type":"text",
+			"text":"Силовой расчет узлов",
+			"styleAttributes":{},
+			"x":40,
+			"y":260,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"d683f2c9cab82728",
+			"type":"text",
+			"text":"Определение набора датчиков",
+			"styleAttributes":{},
+			"x":120,
+			"y":-60,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"95373ba5f03733e0",
+			"type":"text",
+			"text":"Кинематический анализ",
+			"styleAttributes":{},
+			"x":-350,
+			"y":-180,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a1908a1db9a0330e",
+			"type":"text",
+			"text":"Эргономический анализ",
+			"styleAttributes":{},
+			"x":40,
+			"y":-180,
+			"width":260,
+			"height":60
 		}
 	],
-	"edges":[],
+	"edges":[
+		{
+			"id":"8d989fd2aa911d9f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a1c979abd33e8cf2",
+			"fromSide":"bottom",
+			"toNode":"6a4cfa08da9b7e61",
+			"toSide":"top"
+		},
+		{
+			"id":"cfd490667edde740",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"155655239bf4bf9e",
+			"fromSide":"bottom",
+			"toNode":"95373ba5f03733e0",
+			"toSide":"top"
+		}
+	],
 	"metadata":{
 		"version":"1.0-1.0",
 		"frontmatter":{}
