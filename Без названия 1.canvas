@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"7eb7a36c79f3535e","type":"group","x":-360,"y":360,"width":590,"height":120,"label":"Группа без названия"},
+		{"id":"7eb7a36c79f3535e","type":"group","x":-360,"y":360,"width":590,"height":120,"label":"проработка эргономики"},
 		{
 			"id":"95373ba5f03733e0",
 			"type":"text",
