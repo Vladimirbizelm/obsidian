@@ -1,10 +1,10 @@
 {
 	"nodes":[
 		{"id":"1a8d6182a1605256","type":"group","x":-740,"y":-460,"width":920,"height":260,"label":"кинематика"},
-		{"id":"7e395ba232891f2f","type":"group","x":-720,"y":520,"width":880,"height":260,"label":"эргономический анализ"},
-		{"id":"64181f5afddea38f","type":"group","x":-720,"y":920,"width":900,"height":200,"label":"прототипирование"},
-		{"id":"4fa9c6c4712d406d","type":"group","x":-720,"y":240,"width":880,"height":200,"label":"уточнение конструкции"},
-		{"id":"537541407c442192","type":"group","x":-720,"y":-80,"width":880,"height":190,"label":"геометрия"},
+		{"id":"7e395ba232891f2f","type":"group","x":-720,"y":340,"width":880,"height":260,"label":"эргономический анализ"},
+		{"id":"4fa9c6c4712d406d","type":"group","x":-720,"y":80,"width":880,"height":200,"label":"уточнение конструкции"},
+		{"id":"64181f5afddea38f","type":"group","x":-720,"y":660,"width":880,"height":200,"label":"прототипирование"},
+		{"id":"537541407c442192","type":"group","x":-720,"y":-160,"width":880,"height":190,"label":"геометрия"},
 		{
 			"id":"155655239bf4bf9e",
 			"type":"text",
@@ -66,106 +66,6 @@
 			"height":60
 		},
 		{
-			"id":"6cc4ed8d2aae9a9b",
-			"type":"text",
-			"text":"Компоновка механизма загрузки",
-			"styleAttributes":{},
-			"x":-700,
-			"y":20,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"bf1644a54fbd158f",
-			"type":"text",
-			"text":"Предварительный выбор датчиков",
-			"styleAttributes":{},
-			"x":-410,
-			"y":-60,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"661d0e9f9860f03d",
-			"type":"text",
-			"text":"Определение принципа измерения перемещений",
-			"styleAttributes":{},
-			"x":-410,
-			"y":20,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"6ccd6c47c346195b",
-			"type":"text",
-			"text":"Проверка компоновки, первичное моделирование",
-			"styleAttributes":{},
-			"x":-120,
-			"y":-60,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"734313f4a9369d63",
-			"type":"text",
-			"text":"Определение предварительных размеров",
-			"styleAttributes":{},
-			"x":-700,
-			"y":-60,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"790a359e8bd2288c",
-			"type":"text",
-			"text":"Определение расчетной нагрузки",
-			"styleAttributes":{},
-			"x":-700,
-			"y":260,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"0380606103467143",
-			"type":"text",
-			"text":"Силовой расчет",
-			"styleAttributes":{},
-			"x":-700,
-			"y":350,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a9bc2b0d1144403d",
-			"type":"text",
-			"text":"Проверка на прочность, жесткость",
-			"styleAttributes":{},
-			"x":-410,
-			"y":260,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"9df4cc9430588d74",
-			"type":"text",
-			"text":"Проверка датчиков",
-			"styleAttributes":{},
-			"x":-410,
-			"y":350,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"9bb8af7868fc02e2",
-			"type":"text",
-			"text":"Уточнение геометрии",
-			"styleAttributes":{},
-			"x":-120,
-			"y":260,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"cc85917112e64a9b",
 			"type":"text",
 			"text":"Построение крайних положений",
@@ -186,12 +86,102 @@
 			"height":60
 		},
 		{
-			"id":"181f8c6cef466b15",
+			"id":"6cc4ed8d2aae9a9b",
 			"type":"text",
-			"text":"Формирование эргономических параметров",
+			"text":"Компоновка механизма загрузки",
 			"styleAttributes":{},
 			"x":-700,
-			"y":540,
+			"y":-60,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"661d0e9f9860f03d",
+			"type":"text",
+			"text":"Определение принципа измерения перемещений",
+			"styleAttributes":{},
+			"x":-410,
+			"y":-60,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"734313f4a9369d63",
+			"type":"text",
+			"text":"Определение предварительных размеров",
+			"styleAttributes":{},
+			"x":-700,
+			"y":-140,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"bf1644a54fbd158f",
+			"type":"text",
+			"text":"Предварительный выбор датчиков",
+			"styleAttributes":{},
+			"x":-410,
+			"y":-140,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"6ccd6c47c346195b",
+			"type":"text",
+			"text":"Проверка компоновки, первичное моделирование",
+			"styleAttributes":{},
+			"x":-120,
+			"y":-140,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"790a359e8bd2288c",
+			"type":"text",
+			"text":"Определение расчетной нагрузки",
+			"styleAttributes":{},
+			"x":-700,
+			"y":100,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a9bc2b0d1144403d",
+			"type":"text",
+			"text":"Проверка на прочность, жесткость",
+			"styleAttributes":{},
+			"x":-410,
+			"y":100,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"9bb8af7868fc02e2",
+			"type":"text",
+			"text":"Уточнение геометрии",
+			"styleAttributes":{},
+			"x":-120,
+			"y":100,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"0380606103467143",
+			"type":"text",
+			"text":"Силовой расчет",
+			"styleAttributes":{},
+			"x":-700,
+			"y":190,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"9df4cc9430588d74",
+			"type":"text",
+			"text":"Проверка датчиков",
+			"styleAttributes":{},
+			"x":-410,
+			"y":190,
 			"width":260,
 			"height":60
 		},
@@ -201,17 +191,7 @@
 			"text":"Обоснование предварительных значений",
 			"styleAttributes":{},
 			"x":-700,
-			"y":640,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"f74b14f0a9cfbe95",
-			"type":"text",
-			"text":"Изготовления эргономического макета",
-			"styleAttributes":{},
-			"x":-410,
-			"y":540,
+			"y":460,
 			"width":260,
 			"height":60
 		},
@@ -221,7 +201,27 @@
 			"text":"Оценка макета",
 			"styleAttributes":{},
 			"x":-410,
-			"y":640,
+			"y":460,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"181f8c6cef466b15",
+			"type":"text",
+			"text":"Формирование эргономических параметров",
+			"styleAttributes":{},
+			"x":-700,
+			"y":360,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"f74b14f0a9cfbe95",
+			"type":"text",
+			"text":"Изготовления эргономического макета",
+			"styleAttributes":{},
+			"x":-410,
+			"y":360,
 			"width":260,
 			"height":60
 		},
@@ -231,7 +231,7 @@
 			"text":"Уточнение параметров",
 			"styleAttributes":{},
 			"x":-120,
-			"y":540,
+			"y":360,
 			"width":260,
 			"height":60
 		},
@@ -241,17 +241,7 @@
 			"text":"Прототипирование",
 			"styleAttributes":{},
 			"x":-700,
-			"y":940,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"8ffcefa38a46d335",
-			"type":"text",
-			"text":"Изготовление прототипа",
-			"styleAttributes":{},
-			"x":-680,
-			"y":1040,
+			"y":690,
 			"width":260,
 			"height":60
 		},
@@ -260,18 +250,8 @@
 			"type":"text",
 			"text":"Проверка прототипа",
 			"styleAttributes":{},
-			"x":-360,
-			"y":960,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"2b87733c6048b2a1",
-			"type":"text",
-			"text":"Коррекция параметров",
-			"styleAttributes":{},
-			"x":-380,
-			"y":1020,
+			"x":-410,
+			"y":690,
 			"width":260,
 			"height":60
 		},
@@ -280,8 +260,28 @@
 			"type":"text",
 			"text":"Проработка технологии изготовления",
 			"styleAttributes":{},
-			"x":-100,
-			"y":1040,
+			"x":-120,
+			"y":690,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"8ffcefa38a46d335",
+			"type":"text",
+			"text":"Изготовление прототипа",
+			"styleAttributes":{},
+			"x":-700,
+			"y":770,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"2b87733c6048b2a1",
+			"type":"text",
+			"text":"Коррекция параметров",
+			"styleAttributes":{},
+			"x":-410,
+			"y":770,
 			"width":260,
 			"height":60
 		}
@@ -312,6 +312,15 @@
 			"fromNode":"4fa9c6c4712d406d",
 			"fromSide":"bottom",
 			"toNode":"7e395ba232891f2f",
+			"toSide":"top"
+		},
+		{
+			"id":"a4f5a41fe925b922",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"7e395ba232891f2f",
+			"fromSide":"bottom",
+			"toNode":"64181f5afddea38f",
 			"toSide":"top"
 		}
 	],
