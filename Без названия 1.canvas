@@ -1,17 +1,7 @@
 {
 	"nodes":[
-		{"id":"1a8d6182a1605256","type":"group","x":-360,"y":-340,"width":720,"height":180,"label":"кинематика"},
+		{"id":"1a8d6182a1605256","type":"group","x":-360,"y":-460,"width":1040,"height":180,"label":"кинематика"},
 		{"id":"7eb7a36c79f3535e","type":"group","x":-360,"y":360,"width":590,"height":120,"label":"проработка эргономики"},
-		{
-			"id":"95373ba5f03733e0",
-			"type":"text",
-			"text":"Кинематический анализ",
-			"styleAttributes":{},
-			"x":-350,
-			"y":-240,
-			"width":260,
-			"height":60
-		},
 		{
 			"id":"a1908a1db9a0330e",
 			"type":"text",
@@ -75,16 +65,6 @@
 			"height":60
 		},
 		{
-			"id":"155655239bf4bf9e",
-			"type":"text",
-			"text":"Определение кинематической схемы",
-			"styleAttributes":{},
-			"x":-350,
-			"y":-320,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"14453efb6f10c546",
 			"type":"text",
 			"text":"Уточнение эргономических параметров",
@@ -105,22 +85,42 @@
 			"height":80
 		},
 		{
+			"id":"155655239bf4bf9e",
+			"type":"text",
+			"text":"Определение кинематической схемы",
+			"styleAttributes":{},
+			"x":-350,
+			"y":-440,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"95373ba5f03733e0",
+			"type":"text",
+			"text":"Кинематический анализ",
+			"styleAttributes":{},
+			"x":-350,
+			"y":-360,
+			"width":260,
+			"height":60
+		},
+		{
 			"id":"a619745b3028c142",
 			"type":"text",
 			"text":"Определение неподвижного звена",
 			"styleAttributes":{},
 			"x":-50,
-			"y":-320,
+			"y":-440,
 			"width":260,
 			"height":60
 		},
 		{
 			"id":"935d7753b8d4db98",
 			"type":"text",
-			"text":"",
+			"text":"Определение системы координат",
 			"styleAttributes":{},
-			"x":-220,
-			"y":-440,
+			"x":-50,
+			"y":-360,
 			"width":260,
 			"height":60
 		}
