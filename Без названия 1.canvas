@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"1a8d6182a1605256","type":"group","x":-360,"y":-460,"width":1040,"height":180,"label":"кинематика"},
+		{"id":"1a8d6182a1605256","type":"group","x":-740,"y":-460,"width":1040,"height":260,"label":"кинематика"},
 		{"id":"7eb7a36c79f3535e","type":"group","x":-360,"y":360,"width":590,"height":120,"label":"проработка эргономики"},
 		{
 			"id":"a1908a1db9a0330e",
@@ -55,16 +55,6 @@
 			"height":60
 		},
 		{
-			"id":"c2fcf15271f74ee7",
-			"type":"text",
-			"text":"Определение положения центра",
-			"styleAttributes":{},
-			"x":-350,
-			"y":-160,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"14453efb6f10c546",
 			"type":"text",
 			"text":"Уточнение эргономических параметров",
@@ -89,7 +79,7 @@
 			"type":"text",
 			"text":"Определение кинематической схемы",
 			"styleAttributes":{},
-			"x":-350,
+			"x":-730,
 			"y":-440,
 			"width":260,
 			"height":60
@@ -99,7 +89,7 @@
 			"type":"text",
 			"text":"Кинематический анализ",
 			"styleAttributes":{},
-			"x":-350,
+			"x":-730,
 			"y":-360,
 			"width":260,
 			"height":60
@@ -109,7 +99,7 @@
 			"type":"text",
 			"text":"Определение неподвижного звена",
 			"styleAttributes":{},
-			"x":-50,
+			"x":-430,
 			"y":-440,
 			"width":260,
 			"height":60
@@ -119,8 +109,18 @@
 			"type":"text",
 			"text":"Определение системы координат",
 			"styleAttributes":{},
-			"x":-50,
+			"x":-430,
 			"y":-360,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"c2fcf15271f74ee7",
+			"type":"text",
+			"text":"Определение положения центра вращения",
+			"styleAttributes":{},
+			"x":-120,
+			"y":-440,
 			"width":260,
 			"height":60
 		}
@@ -133,34 +133,6 @@
 			"fromNode":"a1c979abd33e8cf2",
 			"fromSide":"bottom",
 			"toNode":"6a4cfa08da9b7e61",
-			"toSide":"top"
-		},
-		{
-			"id":"cfd490667edde740",
-			"styleAttributes":{"pathfindingMethod":"a-star"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"155655239bf4bf9e",
-			"fromSide":"bottom",
-			"toNode":"95373ba5f03733e0",
-			"toSide":"top"
-		},
-		{
-			"id":"8f111f803ba1a08f",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"95373ba5f03733e0",
-			"fromSide":"bottom",
-			"toNode":"c2fcf15271f74ee7",
-			"toSide":"top"
-		},
-		{
-			"id":"dce872b8c1d28407",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"c2fcf15271f74ee7",
-			"fromSide":"bottom",
-			"toNode":"a1908a1db9a0330e",
 			"toSide":"top"
 		},
 		{
