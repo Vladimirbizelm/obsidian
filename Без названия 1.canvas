@@ -1,8 +1,8 @@
 {
 	"nodes":[
 		{"id":"1a8d6182a1605256","type":"group","x":-740,"y":-460,"width":920,"height":260,"label":"кинематика"},
-		{"id":"7eb7a36c79f3535e","type":"group","x":-600,"y":880,"width":590,"height":120,"label":"проработка эргономики"},
-		{"id":"537541407c442192","type":"group","x":-660,"y":40,"width":640,"height":100,"label":"геометрия"},
+		{"id":"537541407c442192","type":"group","x":-720,"y":-80,"width":880,"height":190,"label":"геометрия"},
+		{"id":"7eb7a36c79f3535e","type":"group","x":-620,"y":1260,"width":590,"height":120,"label":"проработка эргономики"},
 		{
 			"id":"155655239bf4bf9e",
 			"type":"text",
@@ -64,98 +64,6 @@
 			"height":60
 		},
 		{
-			"id":"333de3cabdb13a2d",
-			"type":"text",
-			"text":"Определение углов отклонений ручки",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-590,
-			"y":540,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"d683f2c9cab82728",
-			"type":"text",
-			"text":"Определение набора датчиков",
-			"styleAttributes":{},
-			"x":-260,
-			"y":540,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a1c979abd33e8cf2",
-			"type":"text",
-			"text":"Первичный выбор геометрических характеристик",
-			"styleAttributes":{},
-			"x":-420,
-			"y":640,
-			"width":260,
-			"height":80
-		},
-		{
-			"id":"6a4cfa08da9b7e61",
-			"type":"text",
-			"text":"Силовой расчет узлов",
-			"styleAttributes":{},
-			"x":-420,
-			"y":740,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"14453efb6f10c546",
-			"type":"text",
-			"text":"Уточнение эргономических параметров",
-			"styleAttributes":{},
-			"x":-580,
-			"y":910,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"3d0b4f1364028f1a",
-			"type":"text",
-			"text":"Выделение эргономических параметров для каждого канала управления",
-			"styleAttributes":{},
-			"x":-290,
-			"y":900,
-			"width":260,
-			"height":80
-		},
-		{
-			"id":"a1908a1db9a0330e",
-			"type":"text",
-			"text":"Эргономический анализ",
-			"styleAttributes":{},
-			"x":-590,
-			"y":450,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"734313f4a9369d63",
-			"type":"text",
-			"text":"Определение предварительных размеров",
-			"styleAttributes":{},
-			"x":-640,
-			"y":60,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"6cc4ed8d2aae9a9b",
-			"type":"text",
-			"text":"Компоновка механизма загрузки",
-			"styleAttributes":{},
-			"x":-300,
-			"y":60,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"935d7753b8d4db98",
 			"type":"text",
 			"text":"Определение системы координат",
@@ -176,12 +84,12 @@
 			"height":60
 		},
 		{
-			"id":"661d0e9f9860f03d",
+			"id":"6cc4ed8d2aae9a9b",
 			"type":"text",
-			"text":"Определение принципа измерения перемещений",
+			"text":"Компоновка механизма загрузки",
 			"styleAttributes":{},
-			"x":-480,
-			"y":240,
+			"x":-700,
+			"y":20,
 			"width":260,
 			"height":60
 		},
@@ -190,18 +98,140 @@
 			"type":"text",
 			"text":"Предварительный выбор датчиков",
 			"styleAttributes":{},
-			"x":-800,
-			"y":200,
+			"x":-410,
+			"y":-60,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"661d0e9f9860f03d",
+			"type":"text",
+			"text":"Определение принципа измерения перемещений",
+			"styleAttributes":{},
+			"x":-410,
+			"y":20,
 			"width":260,
 			"height":60
 		},
 		{
 			"id":"6ccd6c47c346195b",
 			"type":"text",
-			"text":"Проверка ",
+			"text":"Проверка компоновки, первичное моделирование",
 			"styleAttributes":{},
-			"x":-40,
-			"y":300,
+			"x":-120,
+			"y":-60,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"734313f4a9369d63",
+			"type":"text",
+			"text":"Определение предварительных размеров",
+			"styleAttributes":{},
+			"x":-700,
+			"y":-60,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a1c979abd33e8cf2",
+			"type":"text",
+			"text":"Первичный выбор геометрических характеристик",
+			"styleAttributes":{},
+			"x":-440,
+			"y":1020,
+			"width":260,
+			"height":80
+		},
+		{
+			"id":"6a4cfa08da9b7e61",
+			"type":"text",
+			"text":"Силовой расчет узлов",
+			"styleAttributes":{},
+			"x":-440,
+			"y":1120,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"3d0b4f1364028f1a",
+			"type":"text",
+			"text":"Выделение эргономических параметров для каждого канала управления",
+			"styleAttributes":{},
+			"x":-310,
+			"y":1280,
+			"width":260,
+			"height":80
+		},
+		{
+			"id":"14453efb6f10c546",
+			"type":"text",
+			"text":"Уточнение эргономических параметров",
+			"styleAttributes":{},
+			"x":-600,
+			"y":1290,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a1908a1db9a0330e",
+			"type":"text",
+			"text":"Эргономический анализ",
+			"styleAttributes":{},
+			"x":-610,
+			"y":830,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"333de3cabdb13a2d",
+			"type":"text",
+			"text":"Определение углов отклонений ручки",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-610,
+			"y":920,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"d683f2c9cab82728",
+			"type":"text",
+			"text":"Определение набора датчиков",
+			"styleAttributes":{},
+			"x":-280,
+			"y":920,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"790a359e8bd2288c",
+			"type":"text",
+			"text":"Определение расчетной нагрузки",
+			"styleAttributes":{},
+			"x":-800,
+			"y":320,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"0380606103467143",
+			"type":"text",
+			"text":"Силовой расчет",
+			"styleAttributes":{},
+			"x":-560,
+			"y":360,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a9bc2b0d1144403d",
+			"type":"text",
+			"text":"Проверка на прочно",
+			"styleAttributes":{},
+			"x":-280,
+			"y":380,
 			"width":260,
 			"height":60
 		}
@@ -251,6 +281,15 @@
 			"fromNode":"6a4cfa08da9b7e61",
 			"fromSide":"bottom",
 			"toNode":"7eb7a36c79f3535e",
+			"toSide":"top"
+		},
+		{
+			"id":"e9362dcf89a493e3",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"1a8d6182a1605256",
+			"fromSide":"bottom",
+			"toNode":"537541407c442192",
 			"toSide":"top"
 		}
 	],
