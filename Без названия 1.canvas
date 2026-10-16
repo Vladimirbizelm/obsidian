@@ -1,6 +1,7 @@
 {
 	"nodes":[
 		{"id":"1a8d6182a1605256","type":"group","x":-740,"y":-460,"width":920,"height":260,"label":"кинематика"},
+		{"id":"4fa9c6c4712d406d","type":"group","x":-720,"y":240,"width":880,"height":200,"label":"уточнение конструкции"},
 		{"id":"537541407c442192","type":"group","x":-720,"y":-80,"width":880,"height":190,"label":"геометрия"},
 		{"id":"7eb7a36c79f3535e","type":"group","x":-620,"y":1260,"width":590,"height":120,"label":"проработка эргономики"},
 		{
@@ -39,26 +40,6 @@
 			"text":"Кинематический анализ",
 			"styleAttributes":{},
 			"x":-420,
-			"y":-360,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"cc85917112e64a9b",
-			"type":"text",
-			"text":"Построение крайних положений",
-			"styleAttributes":{},
-			"x":-100,
-			"y":-440,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"1e85fbf8a96aefb8",
-			"type":"text",
-			"text":"Проверка кинематических ограничений",
-			"styleAttributes":{},
-			"x":-100,
 			"y":-360,
 			"width":260,
 			"height":60
@@ -210,8 +191,8 @@
 			"type":"text",
 			"text":"Определение расчетной нагрузки",
 			"styleAttributes":{},
-			"x":-800,
-			"y":320,
+			"x":-700,
+			"y":260,
 			"width":260,
 			"height":60
 		},
@@ -220,18 +201,58 @@
 			"type":"text",
 			"text":"Силовой расчет",
 			"styleAttributes":{},
-			"x":-560,
-			"y":360,
+			"x":-700,
+			"y":350,
 			"width":260,
 			"height":60
 		},
 		{
 			"id":"a9bc2b0d1144403d",
 			"type":"text",
-			"text":"Проверка на прочно",
+			"text":"Проверка на прочность, жесткость",
 			"styleAttributes":{},
-			"x":-280,
-			"y":380,
+			"x":-410,
+			"y":260,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"9df4cc9430588d74",
+			"type":"text",
+			"text":"Проверка датчиков",
+			"styleAttributes":{},
+			"x":-410,
+			"y":350,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"9bb8af7868fc02e2",
+			"type":"text",
+			"text":"Уточнение геометрии",
+			"styleAttributes":{},
+			"x":-120,
+			"y":260,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"cc85917112e64a9b",
+			"type":"text",
+			"text":"Построение крайних положений",
+			"styleAttributes":{},
+			"x":-120,
+			"y":-440,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"1e85fbf8a96aefb8",
+			"type":"text",
+			"text":"Проверка кинематических ограничений",
+			"styleAttributes":{},
+			"x":-120,
+			"y":-360,
 			"width":260,
 			"height":60
 		}
@@ -290,6 +311,15 @@
 			"fromNode":"1a8d6182a1605256",
 			"fromSide":"bottom",
 			"toNode":"537541407c442192",
+			"toSide":"top"
+		},
+		{
+			"id":"b0e3952f00f48bdc",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"537541407c442192",
+			"fromSide":"bottom",
+			"toNode":"4fa9c6c4712d406d",
 			"toSide":"top"
 		}
 	],
