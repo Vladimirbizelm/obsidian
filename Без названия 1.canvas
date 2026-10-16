@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"7e395ba232891f2f","type":"group","x":-800,"y":520,"width":1000,"height":260,"label":"Группа без названия"},
 		{"id":"1a8d6182a1605256","type":"group","x":-740,"y":-460,"width":920,"height":260,"label":"кинематика"},
 		{"id":"4fa9c6c4712d406d","type":"group","x":-720,"y":240,"width":880,"height":200,"label":"уточнение конструкции"},
 		{"id":"537541407c442192","type":"group","x":-720,"y":-80,"width":880,"height":190,"label":"геометрия"},
@@ -253,6 +254,56 @@
 			"styleAttributes":{},
 			"x":-120,
 			"y":-360,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"181f8c6cef466b15",
+			"type":"text",
+			"text":"Формирование эргономических параметров",
+			"styleAttributes":{},
+			"x":-780,
+			"y":540,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"202067fd3d033f04",
+			"type":"text",
+			"text":"Обоснование предварительных значений",
+			"styleAttributes":{},
+			"x":-780,
+			"y":640,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"f74b14f0a9cfbe95",
+			"type":"text",
+			"text":"Изготовления эргономического макета",
+			"styleAttributes":{},
+			"x":-460,
+			"y":640,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"40eff769f80070ec",
+			"type":"text",
+			"text":"Оценка макета",
+			"styleAttributes":{},
+			"x":-200,
+			"y":640,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"ad0addc6029eb9f8",
+			"type":"text",
+			"text":"Уточнение параметров",
+			"styleAttributes":{},
+			"x":-80,
+			"y":700,
 			"width":260,
 			"height":60
 		}
