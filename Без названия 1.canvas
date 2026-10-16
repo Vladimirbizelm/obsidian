@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"1a8d6182a1605256","type":"group","x":-740,"y":-460,"width":920,"height":320,"label":"кинематика"},
+		{"id":"1a8d6182a1605256","type":"group","x":-740,"y":-460,"width":920,"height":260,"label":"кинематика"},
 		{"id":"7eb7a36c79f3535e","type":"group","x":-600,"y":880,"width":590,"height":120,"label":"проработка эргономики"},
 		{"id":"537541407c442192","type":"group","x":-660,"y":40,"width":640,"height":100,"label":"геометрия"},
 		{
@@ -24,16 +24,6 @@
 			"height":60
 		},
 		{
-			"id":"935d7753b8d4db98",
-			"type":"text",
-			"text":"Определение системы координат",
-			"styleAttributes":{},
-			"x":-730,
-			"y":-260,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"c2fcf15271f74ee7",
 			"type":"text",
 			"text":"Определение положения центра вращения",
@@ -50,16 +40,6 @@
 			"styleAttributes":{},
 			"x":-420,
 			"y":-360,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"92b0095673a06f10",
-			"type":"text",
-			"text":"Определение предварительных углов хода",
-			"styleAttributes":{},
-			"x":-420,
-			"y":-260,
 			"width":260,
 			"height":60
 		},
@@ -168,10 +148,60 @@
 		{
 			"id":"6cc4ed8d2aae9a9b",
 			"type":"text",
-			"text":"",
+			"text":"Компоновка механизма загрузки",
 			"styleAttributes":{},
 			"x":-300,
 			"y":60,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"935d7753b8d4db98",
+			"type":"text",
+			"text":"Определение системы координат",
+			"styleAttributes":{},
+			"x":-730,
+			"y":-280,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"92b0095673a06f10",
+			"type":"text",
+			"text":"Определение предварительных углов хода",
+			"styleAttributes":{},
+			"x":-420,
+			"y":-280,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"661d0e9f9860f03d",
+			"type":"text",
+			"text":"Определение принципа измерения перемещений",
+			"styleAttributes":{},
+			"x":-480,
+			"y":240,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"bf1644a54fbd158f",
+			"type":"text",
+			"text":"Предварительный выбор датчиков",
+			"styleAttributes":{},
+			"x":-800,
+			"y":200,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"6ccd6c47c346195b",
+			"type":"text",
+			"text":"Проверка ",
+			"styleAttributes":{},
+			"x":-40,
+			"y":300,
 			"width":260,
 			"height":60
 		}
