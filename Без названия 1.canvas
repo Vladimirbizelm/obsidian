@@ -1,10 +1,10 @@
 {
 	"nodes":[
-		{"id":"7e395ba232891f2f","type":"group","x":-800,"y":520,"width":1000,"height":260,"label":"Группа без названия"},
 		{"id":"1a8d6182a1605256","type":"group","x":-740,"y":-460,"width":920,"height":260,"label":"кинематика"},
+		{"id":"7e395ba232891f2f","type":"group","x":-720,"y":520,"width":880,"height":260,"label":"эргономический анализ"},
+		{"id":"64181f5afddea38f","type":"group","x":-720,"y":920,"width":900,"height":200,"label":"прототипирование"},
 		{"id":"4fa9c6c4712d406d","type":"group","x":-720,"y":240,"width":880,"height":200,"label":"уточнение конструкции"},
 		{"id":"537541407c442192","type":"group","x":-720,"y":-80,"width":880,"height":190,"label":"геометрия"},
-		{"id":"7eb7a36c79f3535e","type":"group","x":-620,"y":1260,"width":590,"height":120,"label":"проработка эргономики"},
 		{
 			"id":"155655239bf4bf9e",
 			"type":"text",
@@ -116,78 +116,6 @@
 			"height":60
 		},
 		{
-			"id":"a1c979abd33e8cf2",
-			"type":"text",
-			"text":"Первичный выбор геометрических характеристик",
-			"styleAttributes":{},
-			"x":-440,
-			"y":1020,
-			"width":260,
-			"height":80
-		},
-		{
-			"id":"6a4cfa08da9b7e61",
-			"type":"text",
-			"text":"Силовой расчет узлов",
-			"styleAttributes":{},
-			"x":-440,
-			"y":1120,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"3d0b4f1364028f1a",
-			"type":"text",
-			"text":"Выделение эргономических параметров для каждого канала управления",
-			"styleAttributes":{},
-			"x":-310,
-			"y":1280,
-			"width":260,
-			"height":80
-		},
-		{
-			"id":"14453efb6f10c546",
-			"type":"text",
-			"text":"Уточнение эргономических параметров",
-			"styleAttributes":{},
-			"x":-600,
-			"y":1290,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a1908a1db9a0330e",
-			"type":"text",
-			"text":"Эргономический анализ",
-			"styleAttributes":{},
-			"x":-610,
-			"y":830,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"333de3cabdb13a2d",
-			"type":"text",
-			"text":"Определение углов отклонений ручки",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-610,
-			"y":920,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"d683f2c9cab82728",
-			"type":"text",
-			"text":"Определение набора датчиков",
-			"styleAttributes":{},
-			"x":-280,
-			"y":920,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"790a359e8bd2288c",
 			"type":"text",
 			"text":"Определение расчетной нагрузки",
@@ -262,7 +190,7 @@
 			"type":"text",
 			"text":"Формирование эргономических параметров",
 			"styleAttributes":{},
-			"x":-780,
+			"x":-700,
 			"y":540,
 			"width":260,
 			"height":60
@@ -272,7 +200,7 @@
 			"type":"text",
 			"text":"Обоснование предварительных значений",
 			"styleAttributes":{},
-			"x":-780,
+			"x":-700,
 			"y":640,
 			"width":260,
 			"height":60
@@ -282,8 +210,8 @@
 			"type":"text",
 			"text":"Изготовления эргономического макета",
 			"styleAttributes":{},
-			"x":-460,
-			"y":640,
+			"x":-410,
+			"y":540,
 			"width":260,
 			"height":60
 		},
@@ -292,7 +220,7 @@
 			"type":"text",
 			"text":"Оценка макета",
 			"styleAttributes":{},
-			"x":-200,
+			"x":-410,
 			"y":640,
 			"width":260,
 			"height":60
@@ -302,59 +230,63 @@
 			"type":"text",
 			"text":"Уточнение параметров",
 			"styleAttributes":{},
-			"x":-80,
-			"y":700,
+			"x":-120,
+			"y":540,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"8704ae4522d988bb",
+			"type":"text",
+			"text":"Прототипирование",
+			"styleAttributes":{},
+			"x":-700,
+			"y":940,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"8ffcefa38a46d335",
+			"type":"text",
+			"text":"Изготовление прототипа",
+			"styleAttributes":{},
+			"x":-680,
+			"y":1040,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"32cb75d1d9f22f1c",
+			"type":"text",
+			"text":"Проверка прототипа",
+			"styleAttributes":{},
+			"x":-360,
+			"y":960,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"2b87733c6048b2a1",
+			"type":"text",
+			"text":"Коррекция параметров",
+			"styleAttributes":{},
+			"x":-380,
+			"y":1020,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"fcbbb5694cd4b10b",
+			"type":"text",
+			"text":"Проработка технологии изготовления",
+			"styleAttributes":{},
+			"x":-100,
+			"y":1040,
 			"width":260,
 			"height":60
 		}
 	],
 	"edges":[
-		{
-			"id":"8d989fd2aa911d9f",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"a1c979abd33e8cf2",
-			"fromSide":"bottom",
-			"toNode":"6a4cfa08da9b7e61",
-			"toSide":"top"
-		},
-		{
-			"id":"479b758a43b7b91f",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"a1908a1db9a0330e",
-			"fromSide":"bottom",
-			"toNode":"333de3cabdb13a2d",
-			"toSide":"top"
-		},
-		{
-			"id":"2ca47ad9f6900c7c",
-			"styleAttributes":{"pathfindingMethod":"square"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"333de3cabdb13a2d",
-			"fromSide":"bottom",
-			"toNode":"a1c979abd33e8cf2",
-			"toSide":"top"
-		},
-		{
-			"id":"42d43155ab243e65",
-			"styleAttributes":{"pathfindingMethod":"square"},
-			"toFloating":false,
-			"fromNode":"d683f2c9cab82728",
-			"fromSide":"bottom",
-			"toNode":"a1c979abd33e8cf2",
-			"toSide":"top"
-		},
-		{
-			"id":"bcebe811bcce90af",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromNode":"6a4cfa08da9b7e61",
-			"fromSide":"bottom",
-			"toNode":"7eb7a36c79f3535e",
-			"toSide":"top"
-		},
 		{
 			"id":"e9362dcf89a493e3",
 			"styleAttributes":{},
@@ -371,6 +303,15 @@
 			"fromNode":"537541407c442192",
 			"fromSide":"bottom",
 			"toNode":"4fa9c6c4712d406d",
+			"toSide":"top"
+		},
+		{
+			"id":"5e2604b8d0d6eb91",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"4fa9c6c4712d406d",
+			"fromSide":"bottom",
+			"toNode":"7e395ba232891f2f",
 			"toSide":"top"
 		}
 	],
